@@ -26,6 +26,8 @@
 		500FB5701988106200BACA77 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500FB5481988106100BACA77 /* CoreData.framework */; };
 		500FB5781988106200BACA77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 500FB5761988106200BACA77 /* InfoPlist.strings */; };
 		500FB57A1988106200BACA77 /* ControllingSourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 500FB5791988106200BACA77 /* ControllingSourceTests.m */; };
+		506C268A198825BE00F14CFA /* EMVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506C2688198825BE00F14CFA /* EMVViewController.m */; };
+		506C268B198825BE00F14CFA /* EMVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506C2689198825BE00F14CFA /* EMVViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		500FB5751988106200BACA77 /* ControllingSourceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControllingSourceTests-Info.plist"; sourceTree = "<group>"; };
 		500FB5771988106200BACA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		500FB5791988106200BACA77 /* ControllingSourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllingSourceTests.m; sourceTree = "<group>"; };
+		506C2687198825BE00F14CFA /* EMVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVViewController.h; sourceTree = "<group>"; };
+		506C2688198825BE00F14CFA /* EMVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMVViewController.m; sourceTree = "<group>"; };
+		506C2689198825BE00F14CFA /* EMVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMVViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,9 @@
 				500FB5651988106100BACA77 /* Images.xcassets */,
 				500FB55C1988106100BACA77 /* ControllingSource.xcdatamodeld */,
 				500FB54B1988106100BACA77 /* Supporting Files */,
+				506C2687198825BE00F14CFA /* EMVViewController.h */,
+				506C2688198825BE00F14CFA /* EMVViewController.m */,
+				506C2689198825BE00F14CFA /* EMVViewController.xib */,
 			);
 			path = ControllingSource;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506C268B198825BE00F14CFA /* EMVViewController.xib in Resources */,
 				500FB55B1988106100BACA77 /* Main_iPad.storyboard in Resources */,
 				500FB5661988106100BACA77 /* Images.xcassets in Resources */,
 				500FB5581988106100BACA77 /* Main_iPhone.storyboard in Resources */,
@@ -268,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				500FB5641988106100BACA77 /* DetailViewController.m in Sources */,
+				506C268A198825BE00F14CFA /* EMVViewController.m in Sources */,
 				500FB5611988106100BACA77 /* MasterViewController.m in Sources */,
 				500FB55E1988106100BACA77 /* ControllingSource.xcdatamodeld in Sources */,
 				500FB5551988106100BACA77 /* AppDelegate.m in Sources */,
@@ -486,6 +496,7 @@
 				500FB57F1988106200BACA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		500FB5801988106200BACA77 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +505,7 @@
 				500FB5821988106200BACA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
